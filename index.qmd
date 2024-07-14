@@ -11,4 +11,4 @@ __This portfolio is to showcase what I have done with class and personal project
 
 ## A Little About Me
 
-_I truly believe that hard work and persistence will get you to whereever you want to go. I began my tech journey in 2022 when I decided to change my major from Biology to Computer Science. It was a great leap of faith at the time because I was halfway through my biology degree and taking a couple coding classes really spark a feeling of joy and craving for problem solving and creativity. I look forward to the possibilities and real world solutions I plan to achieve._
+_I truly believe that hard work and persistence will get you to whereever you want to go. I began my tech journey in 2022 when I decided to change my major from Biology to Computer Science. It was a great leap of faith at the time because I was halfway through my biology degree and taking a couple coding classes really spark a feeling of joy, a craving for problem solving, and creativity. I look forward to the opportunities and real world solutions I plan to achieve._
