@@ -25,4 +25,148 @@ execute:
     
 ---
 
-### Paste in a template
+### What's in a Name?
+
+<!-- highlight line 31 to the end and use ctrl + / (win) or command + / (mac) to uncomment out the code below, the same shortcut can be used to comment out code again. -->
+
+```{python}
+#| label: libraries
+#| include: false
+# Import libraries and give them aliases.
+import pandas as pd
+import numpy as np
+import plotly.express as px
+```
+
+
+### Elevator pitch
+
+_What is in a name? Why do we have periods of time where some names are more used than other names, and why do unused names from previous generations keep popping up in modern days? Our data will focus on the trends of names used within the US from the past 100 hundred years._
+
+```{python}
+#| label: project-data
+#| code-summary: Read and format project data
+# Point to the names_year.csv and store it in a variable.
+df = pd.read_csv("https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv")
+```
+
+
+### QUESTION|TASK 1
+
+__How does your name at your birth year compare to its use historically?__
+
+_Compared to when I was born, in 1994, the name David was used a lot more in 1955 with over 64,700 people at it's peak. Comparitively, when I was born the name belonged to just shy of 22,000 people._ 
+
+```{python}
+#| label: Q1
+#| code-summary: Read and format data
+# Use of David in the data.
+fig = px.line(df.query("name=='David'"), x="year", y="Total", color='name', title='People Named David in the US')
+
+fig.update_layout(
+    xaxis_title = "Years",
+    yaxis_title = "People Named David",
+    legend_title = "Name"
+)
+fig.show()
+
+```
+
+### QUESTION|TASK 2
+
+__If you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?__
+
+_From the 1980's to the 2000's the name Brittany was fairly popular. If someone named Brittany was talking to me on the phone today, I would guess an age range of about 20-40 years. I definatley would not guess the age of 50 years or older since the name was closer to 0 before 1980, nor would I guess 15 years or younger for the same reason._
+
+```{python}
+#| label: Q2
+#| code-summary: Read and format data
+# People named Brittany over the years
+fig = px.line(df.query("name=='Brittany'"), x="year", y="Total", color='name', title='People Named Brittany in the US')
+
+fig.update_layout(
+    xaxis_title = "Years",
+    yaxis_title = "Population",
+    legend_title = "Name"
+)
+fig.show()
+
+```
+
+### QUESTION|TASK 3
+
+__Mary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names. What trends do you notice?__
+
+_Given the names, they all seem to have been popular before the 1980's. All these names have thier popularity peak around the 1950's with Mary having the most names used, then Paul next with Peter and Martha last but looking similar numbers wise. The name Mary also tends to have another peak "season" at about the 1920's._
+
+```{python}
+#| label: Q3
+#| code-summary: Read and format data
+# Names of Mary, Martha, Peter, and Paul popularity
+fig = px.line(df.query("name==('Mary', 'Martha', 'Peter', 'Paul')"), x="year", y="Total", color='name', title="People's Names in the US Over Time")
+
+fig.update_layout(
+    xaxis_title = "Years",
+    yaxis_title = "Population",
+    legend_title = "Name"
+)
+fig.show()
+```
+
+### QUESTION|TASK 4
+
+__Think of a unique name from a famous movie. Plot the usage of that name and see how changes line up with the movie release. Does it look like the movie had an effect on usage?__
+
+_I have always liked "How to Train Your Dragon," and I even named my daughter after one of the characters in that show which was Astrid. The movie came out in 2010, so I wanted to see if that name had gained traction, so to speak, and to my surprise it did. In the data provided we see that when the movie came out the name Astrid had 124 people, and then in the following years it doubles. I honestly wish the data had a few more years of recorded dates so I could see the change more. 
+```{python}
+#| label: Q4
+#| code-summary: Read and format data
+# Famous movie name: Astrid's popularity
+fig = px.line(df.query("name=='Astrid'"), x="year", y="Total", color='name', title='People Named Astrid in the US')
+
+fig.update_layout(
+    xaxis_title = "Years",
+    yaxis_title = "Population",
+    legend_title = "Name"
+)
+fig.show()
+
+```
+
+### STRETCH QUESTION|TASK
+
+__Reproduce the chart Elliot using the data from the names_year.csv file.__
+
+```{python}
+# Recreate the graph for Elliot
+fig = px.line(df.query("name=='Elliot'"), x="year", y="Total", color='name', title='Elliot... What?')
+
+fig.update_layout(
+    xaxis_title = "year",
+    yaxis_title = "Total",
+    legend_title = "name"
+)
+
+fig.add_vline(
+    x = 1982,
+    line_dash = "dash",
+    line_color = "red",
+    annotation_text = 'E.T Released',
+    annotation_position = "top left"
+)
+
+fig.add_vline(
+    x = 1985,
+    line_dash = "dash",
+    line_color = "red",
+    annotation_text = 'Second Release'
+)
+
+fig.add_vline(
+    x = 2002,
+    line_dash = "dash",
+    line_color = "red",
+    annotation_text = 'Third Release'
+)
+fig.show()
+```

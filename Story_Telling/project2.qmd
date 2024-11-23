@@ -25,4 +25,174 @@ execute:
     
 ---
 
-### Paste in a template
+```{python}
+#| label: libraries
+#| include: false
+import pandas as pd
+import numpy as np
+import plotly.express as px
+```
+
+
+### Elevator pitch
+
+_Has flight delays plagued your travel plans? Whether delays happen from severe weather conditions or by routine cleaning, flight delays are annoying and can be major inconviences to our cherished schedules. With the data presented on this page, we can know when to travel and with which airports we might want to travel to in order to best avoid pesky flight delays._
+
+```{python}
+#| label: project-data
+#| code-summary: Read and format project data
+# Store JSON into Data Frame
+df = pd.read_json("https://raw.githubusercontent.com/byuidatascience/data4missing/master/data-raw/flights_missing/flights_missing.json")
+```
+
+
+### Dealing With Missing Data
+
+__Fix all of the varied missing data types in the data to be consistent (all missing values should be displayed as “NaN”).__
+
+_Data missing included month showing up as n/a, num_of_delayed_late_aircraft and values of -999, as well as none values for other columns. Here is the table with NaN values._
+
+```{python}
+#| label: Handling Missing Data
+#| code-summary: Replacing missing data with NaN
+# replace non-relavent data with NaN values
+df.replace(to_replace=[None, '', 'n/a', -999], value=np.nan, inplace=True)
+
+display(df.head(15))
+```
+
+
+### Airport With The Worst Delays
+
+__Which airport has the worst delays?__
+
+_The metric I chose to measure the worst delays was the total delay time in minutes. Now sometimes delays happen and probably at no fault of the airport that has informed travelers of these delays. Delay time can add up though, so if the total delay time is a significant number compaired to the rest then we can assume that this airport is the worst when it comes to flight delays._
+
+```{python}
+#| label: Airport w/ worst delay times
+#| code-summary: Plotting data
+# Chart that shows minutes_delayed_total for all airports.
+
+fig = px.bar(df,
+    x="airport_code",
+    y="minutes_delayed_total",
+    title="Airport Total Delays in Minutes"
+)
+fig.update_layout(
+  yaxis_title = "Total Minutes Delayed",
+  xaxis_title = "Airport Code"
+)
+fig
+```
+
+_From what we can see in the chart, Chicago O'Hare International Airport has the most amount of delays in minutes. Due to this being the case we can assume that this airport has the worst delays for having the longest wait times which can cause people to miss connecting flights or important events._
+
+### Best Month To Fly
+
+__What is the best month to fly if you want to avoid delays of any length?__
+
+_For the metric, I chose total minutes delayed because we can see how many minutes total, per month in this case, to see the likelihood of a flight being delayed. From the data we can see that November is the month that has the least amount of delays out of the year, which makes that month the best time to travel._
+
+```{python}
+#| label: Best months to fly
+#| code-summary: Read and format data
+# Remove missing month values
+df3 = df
+df3_clean = df3.dropna()
+fig = px.bar(df3_clean,
+  x='month',
+  y='minutes_delayed_total',
+  title='Most Delays For Each Month'
+)
+fig.update_layout(
+  yaxis_title = "Total Minutes Delayed",
+  xaxis_title = "Month",
+  height = 500
+)
+fig
+```
+
+
+### Flight Delays By Weather
+
+__Your job is to create a new column that calculates the total number of flights delayed by weather (both severe and mild).__
+
+_Adding together the severe and mild weather delays gives us information on the total number of flights that are delayed due to weather conditions._
+
+```{python}
+#| label: Severe and Mild weather delays
+#| code-summary: Making a new column
+df4 = df
+weather = (df4.assign(
+    severe = df4.num_of_delays_weather, # no missing
+    nodla_nona = lambda x: (x.num_of_delays_late_aircraft
+        .replace(-999, np.nan)), #missing is -999
+    mild_late = lambda x: x.nodla_nona.fillna(x.nodla_nona.mean())*0.3,
+    mild = np.where(
+        df4.month.isin(['April', 'May', 'June', 'July', 'August']),
+            df4.num_of_delays_nas*0.4,
+            df4.num_of_delays_nas*0.65),
+    weather = lambda x: x.severe + x.mild_late + x.mild,
+    proportion_weather_delay = lambda x: x.weather / x.num_of_delays_total,
+    proportion_weather_total = lambda x:  x.weather / x.num_of_flights_total)
+    .filter(['airport_code','month','year', 'severe','mild', 'mild_late',
+    'weather', 'num_of_delays_total', 'num_of_flights_total',
+    'proportion_weather_delay','proportion_weather_total']))
+weather.head(20)
+```
+
+### Airports With Most Delays Due To Weather
+
+__Using the new weather variable calculated above, create a barplot showing the proportion of all flights that are delayed by weather at each airport. Describe what you learn from this graph.__
+
+_From what we learn by the data shown below is that Chicago O'Hare International and Hartsfield-Jackson Atlanta International Airports suffer the most delays out of the year due to weather conditions. With Hartsfield-Jackson Atlanta International having the most delays, it might be in the best interest of travelers to not book flights or connecting flights that start in either of these airports. This is especially the case during the month of December._
+
+```{python}
+#| label: Airports with most delays due to weather
+#| code-summary: Plotting data
+fig = px.bar(weather,
+  x='airport_code',
+  y='weather',
+  title='Flights Delayed By Weather'
+)
+fig.update_layout(
+  yaxis_title = "Airport Code",
+  xaxis_title = "Number of Flights Delayed",
+  height = 800
+)
+fig
+```
+
+### Stretch
+
+__Which delay is the worst delay?__
+
+_The criteria I chose to measure the worst delay were delays in minutes because you can have a numerous amount of delays, but if those delays were a few minutes long then it wouldn't really matter for a traveler. Signifcant delays like having to wait hours or even a day are more inconvienient for travelers._
+
+```{python}
+#| label: Worst delay
+#| code-summary: Grouping categories
+fig = px.bar(df,
+  x='airport_code',
+  y=['minutes_delayed_carrier', 'minutes_delayed_late_aircraft', 'minutes_delayed_nas', 'minutes_delayed_security', 'minutes_delayed_weather'],
+  barmode='group'
+  
+)
+fig.update_layout(
+  xaxis_title = "Airport Code",
+  yaxis_title = "Number of Flights Delayed",
+  title_text = 'Worst Types of Delays by Minutes',
+  legend_title = "Type of Delay",
+  height = 800,
+  width = 1000 
+)
+newnames = {'minutes_delayed_carrier':'Carrier Delays', 'minutes_delayed_late_aircraft': 'Late Arrivals', 'minutes_delayed_nas': 'NAS Delays', 'minutes_delayed_security': 'Security Delays', 'minutes_delayed_weather': 'Weather Delays'}
+fig.for_each_trace(lambda t: t.update(name = newnames[t.name],
+                                      legendgroup = newnames[t.name],
+                                      hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])
+                                     )
+)
+fig
+```
+
+_According to the data above we can determine that the worst delays are late arrival delays by aircraft arriving late at previous airports causing a ripple effect for future airport destinations._
