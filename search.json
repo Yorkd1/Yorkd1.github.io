@@ -1,38 +1,5 @@
 [
   {
-    "objectID": "Competition/project5.html",
-    "href": "Competition/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competition",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "Competition/project1.html",
-    "href": "Competition/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competition",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "Competition/project3.html",
-    "href": "Competition/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competition",
-      "Project 3"
-    ]
-  },
-  {
     "objectID": "story_telling.html",
     "href": "story_telling.html",
     "title": "about me",
@@ -53,14 +20,110 @@
     ]
   },
   {
-    "objectID": "Machine_Learning/project2.html",
-    "href": "Machine_Learning/project2.html",
+    "objectID": "Competition/project1.html",
+    "href": "Competition/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Competition",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Competition/project4.html",
+    "href": "Competition/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Competition",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Competition/project5.html",
+    "href": "Competition/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Competition",
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project1.html",
+    "href": "Cleansing_Exploration/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project4.html",
+    "href": "Cleansing_Exploration/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project5.html",
+    "href": "Cleansing_Exploration/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "competition.html",
+    "href": "competition.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Competition"
+    ]
+  },
+  {
+    "objectID": "competition.html#title-2-header",
+    "href": "competition.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Competition"
+    ]
+  },
+  {
+    "objectID": "Full_Stack/project2.html",
+    "href": "Full_Stack/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "Full_Stack/project3.html",
+    "href": "Full_Stack/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Machine_Learning/project1.html",
+    "href": "Machine_Learning/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
       "Machine Learning",
-      "Project 2"
+      "Project 1"
     ]
   },
   {
@@ -75,56 +138,69 @@
     ]
   },
   {
-    "objectID": "exploration.html",
-    "href": "exploration.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Data Exploration"
-    ]
-  },
-  {
-    "objectID": "exploration.html#title-2-header",
-    "href": "exploration.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Data Exploration"
-    ]
-  },
-  {
-    "objectID": "Full_Stack/project5.html",
-    "href": "Full_Stack/project5.html",
+    "objectID": "Machine_Learning/project5.html",
+    "href": "Machine_Learning/project5.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Full Stack",
+      "Machine Learning",
       "Project 5"
     ]
   },
   {
-    "objectID": "Full_Stack/project1.html",
-    "href": "Full_Stack/project1.html",
+    "objectID": "Cleansing_Projects/project2.html",
+    "href": "Cleansing_Projects/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Full Stack",
+      "Data Cleansing",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Projects/project3.html",
+    "href": "Cleansing_Projects/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Data Cleansing",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Story_Telling/project1.html",
+    "href": "Story_Telling/project1.html",
+    "title": "Client Report - Name Popularity",
+    "section": "",
+    "text": "What’s in a Name?\n\n\n\nElevator pitch\nWhat is in a name? Why do we have periods of time where some names are more used than other names, and why do unused names from previous generations keep popping up in modern days? Our data will focus on the trends of names used within the US from the past 100 hundred years.\n\n\nRead and format project data\n# Point to the names_year.csv and store it in a variable.\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\n\n\nQUESTION|TASK 1\nHow does your name at your birth year compare to its use historically?\nCompared to when I was born, in 1994, the name David was used a lot more in 1955 with over 64,700 people at it’s peak. Comparitively, when I was born the name belonged to just shy of 22,000 people.\n\n\nRead and format data\n# Use of David in the data.\nfig = px.line(df.query(\"name=='David'\"), x=\"year\", y=\"Total\", color='name', title='People Named David in the US')\n\nfig.update_layout(\n    xaxis_title = \"Years\",\n    yaxis_title = \"People Named David\",\n    legend_title = \"Name\"\n)\nfig.show()\n\n\n                                                \n\n\n\n\nQUESTION|TASK 2\nIf you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?\nFrom the 1980’s to the 2000’s the name Brittany was fairly popular. If someone named Brittany was talking to me on the phone today, I would guess an age range of about 20-40 years. I definatley would not guess the age of 50 years or older since the name was closer to 0 before 1980, nor would I guess 15 years or younger for the same reason.\n\n\nRead and format data\n# People named Brittany over the years\nfig = px.line(df.query(\"name=='Brittany'\"), x=\"year\", y=\"Total\", color='name', title='People Named Brittany in the US')\n\nfig.update_layout(\n    xaxis_title = \"Years\",\n    yaxis_title = \"Population\",\n    legend_title = \"Name\"\n)\nfig.show()\n\n\n                                                \n\n\n\n\nQUESTION|TASK 3\nMary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names. What trends do you notice?\nGiven the names, they all seem to have been popular before the 1980’s. All these names have thier popularity peak around the 1950’s with Mary having the most names used, then Paul next with Peter and Martha last but looking similar numbers wise. The name Mary also tends to have another peak “season” at about the 1920’s.\n\n\nRead and format data\n# Names of Mary, Martha, Peter, and Paul popularity\nfig = px.line(df.query(\"name==('Mary', 'Martha', 'Peter', 'Paul')\"), x=\"year\", y=\"Total\", color='name', title=\"People's Names in the US Over Time\")\n\nfig.update_layout(\n    xaxis_title = \"Years\",\n    yaxis_title = \"Population\",\n    legend_title = \"Name\"\n)\nfig.show()\n\n\n                                                \n\n\n\n\nQUESTION|TASK 4\nThink of a unique name from a famous movie. Plot the usage of that name and see how changes line up with the movie release. Does it look like the movie had an effect on usage?\n_I have always liked “How to Train Your Dragon,” and I even named my daughter after one of the characters in that show which was Astrid. The movie came out in 2010, so I wanted to see if that name had gained traction, so to speak, and to my surprise it did. In the data provided we see that when the movie came out the name Astrid had 124 people, and then in the following years it doubles. I honestly wish the data had a few more years of recorded dates so I could see the change more.\n\n\nRead and format data\n# Famous movie name: Astrid's popularity\nfig = px.line(df.query(\"name=='Astrid'\"), x=\"year\", y=\"Total\", color='name', title='People Named Astrid in the US')\n\nfig.update_layout(\n    xaxis_title = \"Years\",\n    yaxis_title = \"Population\",\n    legend_title = \"Name\"\n)\nfig.show()\n\n\n                                                \n\n\n\n\nSTRETCH QUESTION|TASK\nReproduce the chart Elliot using the data from the names_year.csv file.\n\n\nShow the code\n# Recreate the graph for Elliot\nfig = px.line(df.query(\"name=='Elliot'\"), x=\"year\", y=\"Total\", color='name', title='Elliot... What?')\n\nfig.update_layout(\n    xaxis_title = \"year\",\n    yaxis_title = \"Total\",\n    legend_title = \"name\"\n)\n\nfig.add_vline(\n    x = 1982,\n    line_dash = \"dash\",\n    line_color = \"red\",\n    annotation_text = 'E.T Released',\n    annotation_position = \"top left\"\n)\n\nfig.add_vline(\n    x = 1985,\n    line_dash = \"dash\",\n    line_color = \"red\",\n    annotation_text = 'Second Release'\n)\n\nfig.add_vline(\n    x = 2002,\n    line_dash = \"dash\",\n    line_color = \"red\",\n    annotation_text = 'Third Release'\n)\nfig.show()\n\n\n                                                \n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Story Telling",
       "Project 1"
     ]
   },
   {
-    "objectID": "Full_Stack/project3.html",
-    "href": "Full_Stack/project3.html",
+    "objectID": "Story_Telling/project4.html",
+    "href": "Story_Telling/project4.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Full Stack",
-      "Project 3"
+      "Story Telling",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Story_Telling/project5.html",
+    "href": "Story_Telling/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Story Telling",
+      "Project 5"
     ]
   },
   {
@@ -146,116 +222,6 @@
     "crumbs": [
       "Full Stack"
     ]
-  },
-  {
-    "objectID": "Story_Telling/project2.html",
-    "href": "Story_Telling/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project4.html",
-    "href": "Story_Telling/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 4"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project5.html",
-    "href": "Cleansing_Projects/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project1.html",
-    "href": "Cleansing_Projects/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project3.html",
-    "href": "Cleansing_Projects/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "cleansing.html",
-    "href": "cleansing.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Data Cleansing"
-    ]
-  },
-  {
-    "objectID": "cleansing.html#title-2-header",
-    "href": "cleansing.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Data Cleansing"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Exploration/project2.html",
-    "href": "Cleansing_Exploration/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project4.html",
-    "href": "Cleansing_Exploration/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project3.html",
-    "href": "Cleansing_Exploration/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project1.html",
-    "href": "Cleansing_Exploration/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project5.html",
-    "href": "Cleansing_Exploration/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "resume.html",
@@ -293,6 +259,59 @@
     "text": "2018-2022 Broulims Associate, Idaho\nnow Student, Idaho"
   },
   {
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Exploration"
+    ]
+  },
+  {
+    "objectID": "exploration.html#title-2-header",
+    "href": "exploration.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Exploration"
+    ]
+  },
+  {
+    "objectID": "Story_Telling/project3.html",
+    "href": "Story_Telling/project3.html",
+    "title": "Client Report - [Project Name]",
+    "section": "",
+    "text": "Paste template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Story Telling",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Story_Telling/project2.html",
+    "href": "Story_Telling/project2.html",
+    "title": "Client Report - Flight Delays",
+    "section": "",
+    "text": "Elevator pitch\nHas flight delays plagued your travel plans? Whether delays happen from severe weather conditions or by routine cleaning, flight delays are annoying and can be major inconviences to our cherished schedules. With the data presented on this page, we can know when to travel and with which airports we might want to travel to in order to best avoid pesky flight delays.\n\n\nRead and format project data\n# Store JSON into Data Frame\ndf = pd.read_json(\"https://raw.githubusercontent.com/byuidatascience/data4missing/master/data-raw/flights_missing/flights_missing.json\")\n\n\n\n\nDealing With Missing Data\nFix all of the varied missing data types in the data to be consistent (all missing values should be displayed as “NaN”).\nData missing included month showing up as n/a, num_of_delayed_late_aircraft and values of -999, as well as none values for other columns. Here is the table with NaN values.\n::: {#cell-Handling Missing Data .cell execution_count=3}\n\nReplacing missing data with NaN\n# replace non-relavent data with NaN values\ndf.replace(to_replace=[None, '', 'n/a', -999], value=np.nan, inplace=True)\n\ndisplay(df.head(15))\n\n\n\n\n\n\n\n\n\nairport_code\nairport_name\nmonth\nyear\nnum_of_flights_total\nnum_of_delays_carrier\nnum_of_delays_late_aircraft\nnum_of_delays_nas\nnum_of_delays_security\nnum_of_delays_weather\nnum_of_delays_total\nminutes_delayed_carrier\nminutes_delayed_late_aircraft\nminutes_delayed_nas\nminutes_delayed_security\nminutes_delayed_weather\nminutes_delayed_total\n\n\n\n\n0\nATL\nAtlanta, GA: Hartsfield-Jackson Atlanta Intern...\nJanuary\n2005.0\n35048\n1500+\nNaN\n4598\n10\n448\n8355\n116423.0\n104415\n207467.0\n297\n36931\n465533\n\n\n1\nDEN\nDenver, CO: Denver International\nJanuary\n2005.0\n12687\n1041\n928.0\n935\n11\n233\n3153\n53537.0\n70301\n36817.0\n363\n21779\n182797\n\n\n2\nIAD\nNaN\nJanuary\n2005.0\n12381\n414\n1058.0\n895\n4\n61\n2430\nNaN\n70919\n35660.0\n208\n4497\n134881\n\n\n3\nORD\nChicago, IL: Chicago O'Hare International\nJanuary\n2005.0\n28194\n1197\n2255.0\n5415\n5\n306\n9178\n88691.0\n160811\n364382.0\n151\n24859\n638894\n\n\n4\nSAN\nSan Diego, CA: San Diego International\nJanuary\n2005.0\n7283\n572\n680.0\n638\n7\n56\n1952\n27436.0\n38445\n21127.0\n218\n4326\n91552\n\n\n5\nSFO\nSan Francisco, CA: San Francisco International\nJanuary\n2005.0\n10274\n798\n733.0\n1166\n7\n114\n2816\n41570.0\n47705\n60380.0\n247\n7373\n157275\n\n\n6\nSLC\nSalt Lake City, UT: Salt Lake City International\nJanuary\n2005.0\n12000\n817\n564.0\n864\n13\n270\n2525\n36252.0\n30557\n35977.0\n327\n27219\n130332\n\n\n7\nATL\nAtlanta, GA: Hartsfield-Jackson Atlanta Intern...\nFebuary\n2005.0\n33702\n1288\nNaN\n6104\n2\n399\n9195\n86876.0\n86698\n321969.0\n36\n31944\n527523\n\n\n8\nDEN\nDenver, CO: Denver International\nFebuary\n2005.0\n11480\n729\n432.0\n581\n4\n42\n1788\n33205.0\n26228\n16864.0\n271\n2781\n79349\n\n\n9\nIAD\nWashington, DC: Washington Dulles International\nFebuary\n2005.0\n10042\n284\n631.0\n691\n4\n28\n1639\n15573.0\n39840\nNaN\n169\n1359\n78878\n\n\n10\nORD\nChicago, IL: Chicago O'Hare International\nFebuary\n2005.0\n25665\n794\n1222.0\n3132\n6\n114\n5269\n50136.0\n72868\n164398.0\n208\n7256\n294866\n\n\n11\nSAN\nSan Diego, CA: San Diego International\nFebuary\n2005.0\n6543\n447\n491.0\n671\n1\n23\n1635\n21755.0\n28887\n20705.0\n44\n1285\n72676\n\n\n12\nSFO\nSan Francisco, CA: San Francisco International\nFebuary\n2005.0\n9327\n599\n457.0\n1010\n0\n57\n2122\n30760.0\n27302\nNaN\n6\n3178\n110995\n\n\n13\nSLC\nNaN\nFebuary\n2005.0\n12404\n645\n463.0\n752\n10\n79\n1947\n32336.0\n23087\n24544.0\n293\n4614\n84874\n\n\n14\nATL\nAtlanta, GA: Hartsfield-Jackson Atlanta Intern...\nMarch\n2005.0\n37806\n1462\nNaN\n5697\n11\n423\n9431\nNaN\n150766\n396191.0\n568\n33379\n691887\n\n\n\n\n\n\n:::\n\n\nAirport With The Worst Delays\nWhich airport has the worst delays?\nThe metric I chose to measure the worst delays was the total delay time in minutes. Now sometimes delays happen and probably at no fault of the airport that has informed travelers of these delays. Delay time can add up though, so if the total delay time is a significant number compaired to the rest then we can assume that this airport is the worst when it comes to flight delays.\n::: {#cell-Airport w/ worst delay times .cell execution_count=4}\n\nPlotting data\n# Chart that shows minutes_delayed_total for all airports.\n\nfig = px.bar(df,\n    x=\"airport_code\",\n    y=\"minutes_delayed_total\",\n    title=\"Airport Total Delays in Minutes\"\n)\nfig.update_layout(\n  yaxis_title = \"Total Minutes Delayed\",\n  xaxis_title = \"Airport Code\"\n)\nfig\n\n\n                                                \n\n:::\nFrom what we can see in the chart, Chicago O’Hare International Airport has the most amount of delays in minutes. Due to this being the case we can assume that this airport has the worst delays for having the longest wait times which can cause people to miss connecting flights or important events.\n\n\nBest Month To Fly\nWhat is the best month to fly if you want to avoid delays of any length?\nFor the metric, I chose total minutes delayed because we can see how many minutes total, per month in this case, to see the likelihood of a flight being delayed. From the data we can see that November is the month that has the least amount of delays out of the year, which makes that month the best time to travel.\n::: {#cell-Best months to fly .cell execution_count=5}\n\nRead and format data\n# Remove missing month values\ndf3 = df\ndf3_clean = df3.dropna()\nfig = px.bar(df3_clean,\n  x='month',\n  y='minutes_delayed_total',\n  title='Most Delays For Each Month'\n)\nfig.update_layout(\n  yaxis_title = \"Total Minutes Delayed\",\n  xaxis_title = \"Month\",\n  height = 500\n)\nfig\n\n\n                                                \n\n:::\n\n\nFlight Delays By Weather\nYour job is to create a new column that calculates the total number of flights delayed by weather (both severe and mild).\nAdding together the severe and mild weather delays gives us information on the total number of flights that are delayed due to weather conditions.\n::: {#cell-Severe and Mild weather delays .cell execution_count=6}\n\nMaking a new column\ndf4 = df\nweather = (df4.assign(\n    severe = df4.num_of_delays_weather, # no missing\n    nodla_nona = lambda x: (x.num_of_delays_late_aircraft\n        .replace(-999, np.nan)), #missing is -999\n    mild_late = lambda x: x.nodla_nona.fillna(x.nodla_nona.mean())*0.3,\n    mild = np.where(\n        df4.month.isin(['April', 'May', 'June', 'July', 'August']),\n            df4.num_of_delays_nas*0.4,\n            df4.num_of_delays_nas*0.65),\n    weather = lambda x: x.severe + x.mild_late + x.mild,\n    proportion_weather_delay = lambda x: x.weather / x.num_of_delays_total,\n    proportion_weather_total = lambda x:  x.weather / x.num_of_flights_total)\n    .filter(['airport_code','month','year', 'severe','mild', 'mild_late',\n    'weather', 'num_of_delays_total', 'num_of_flights_total',\n    'proportion_weather_delay','proportion_weather_total']))\nweather.head(20)\n\n\n\n\n\n\n\n\n\nairport_code\nmonth\nyear\nsevere\nmild\nmild_late\nweather\nnum_of_delays_total\nnum_of_flights_total\nproportion_weather_delay\nproportion_weather_total\n\n\n\n\n0\nATL\nJanuary\n2005.0\n448\n2988.70\n332.731222\n3769.431222\n8355\n35048\n0.451159\n0.107551\n\n\n1\nDEN\nJanuary\n2005.0\n233\n607.75\n278.400000\n1119.150000\n3153\n12687\n0.354948\n0.088212\n\n\n2\nIAD\nJanuary\n2005.0\n61\n581.75\n317.400000\n960.150000\n2430\n12381\n0.395123\n0.077550\n\n\n3\nORD\nJanuary\n2005.0\n306\n3519.75\n676.500000\n4502.250000\n9178\n28194\n0.490548\n0.159688\n\n\n4\nSAN\nJanuary\n2005.0\n56\n414.70\n204.000000\n674.700000\n1952\n7283\n0.345645\n0.092640\n\n\n5\nSFO\nJanuary\n2005.0\n114\n757.90\n219.900000\n1091.800000\n2816\n10274\n0.387713\n0.106268\n\n\n6\nSLC\nJanuary\n2005.0\n270\n561.60\n169.200000\n1000.800000\n2525\n12000\n0.396356\n0.083400\n\n\n7\nATL\nFebuary\n2005.0\n399\n3967.60\n332.731222\n4699.331222\n9195\n33702\n0.511075\n0.139438\n\n\n8\nDEN\nFebuary\n2005.0\n42\n377.65\n129.600000\n549.250000\n1788\n11480\n0.307187\n0.047844\n\n\n9\nIAD\nFebuary\n2005.0\n28\n449.15\n189.300000\n666.450000\n1639\n10042\n0.406620\n0.066366\n\n\n10\nORD\nFebuary\n2005.0\n114\n2035.80\n366.600000\n2516.400000\n5269\n25665\n0.477586\n0.098048\n\n\n11\nSAN\nFebuary\n2005.0\n23\n436.15\n147.300000\n606.450000\n1635\n6543\n0.370917\n0.092687\n\n\n12\nSFO\nFebuary\n2005.0\n57\n656.50\n137.100000\n850.600000\n2122\n9327\n0.400848\n0.091198\n\n\n13\nSLC\nFebuary\n2005.0\n79\n488.80\n138.900000\n706.700000\n1947\n12404\n0.362969\n0.056974\n\n\n14\nATL\nMarch\n2005.0\n423\n3703.05\n332.731222\n4458.781222\n9431\n37806\n0.472779\n0.117938\n\n\n15\nDEN\nMarch\n2005.0\n85\n344.50\n175.800000\n605.300000\n2062\n12979\n0.293550\n0.046637\n\n\n16\nIAD\nMarch\n2005.0\n43\n505.05\n217.200000\n765.250000\n1921\n11249\n0.398360\n0.068028\n\n\n17\nORD\nMarch\n2005.0\n159\n2395.90\n499.500000\n3054.400000\n6544\n28785\n0.466748\n0.106111\n\n\n18\nSAN\nMarch\n2005.0\n27\n222.95\n146.700000\n396.650000\n1324\n7298\n0.299585\n0.054351\n\n\n19\nSFO\nMarch\n2005.0\n54\n599.95\n136.500000\n790.450000\n2148\n10532\n0.367993\n0.075052\n\n\n\n\n\n\n:::\n\n\nAirports With Most Delays Due To Weather\nUsing the new weather variable calculated above, create a barplot showing the proportion of all flights that are delayed by weather at each airport. Describe what you learn from this graph.\nFrom what we learn by the data shown below is that Chicago O’Hare International and Hartsfield-Jackson Atlanta International Airports suffer the most delays out of the year due to weather conditions. With Hartsfield-Jackson Atlanta International having the most delays, it might be in the best interest of travelers to not book flights or connecting flights that start in either of these airports. This is especially the case during the month of December.\n::: {#cell-Airports with most delays due to weather .cell execution_count=7}\n\nPlotting data\nfig = px.bar(weather,\n  x='airport_code',\n  y='weather',\n  title='Flights Delayed By Weather'\n)\nfig.update_layout(\n  yaxis_title = \"Airport Code\",\n  xaxis_title = \"Number of Flights Delayed\",\n  height = 800\n)\nfig\n\n\n                                                \n\n:::\n\n\nStretch\nWhich delay is the worst delay?\nThe criteria I chose to measure the worst delay were delays in minutes because you can have a numerous amount of delays, but if those delays were a few minutes long then it wouldn’t really matter for a traveler. Signifcant delays like having to wait hours or even a day are more inconvienient for travelers.\n::: {#cell-Worst delay .cell execution_count=8}\n\nGrouping categories\nfig = px.bar(df,\n  x='airport_code',\n  y=['minutes_delayed_carrier', 'minutes_delayed_late_aircraft', 'minutes_delayed_nas', 'minutes_delayed_security', 'minutes_delayed_weather'],\n  barmode='group'\n  \n)\nfig.update_layout(\n  xaxis_title = \"Airport Code\",\n  yaxis_title = \"Number of Flights Delayed\",\n  title_text = 'Worst Types of Delays by Minutes',\n  legend_title = \"Type of Delay\",\n  height = 800,\n  width = 1000 \n)\nnewnames = {'minutes_delayed_carrier':'Carrier Delays', 'minutes_delayed_late_aircraft': 'Late Arrivals', 'minutes_delayed_nas': 'NAS Delays', 'minutes_delayed_security': 'Security Delays', 'minutes_delayed_weather': 'Weather Delays'}\nfig.for_each_trace(lambda t: t.update(name = newnames[t.name],\n                                      legendgroup = newnames[t.name],\n                                      hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])\n                                     )\n)\nfig\n\n\n                                                \n\n:::\nAccording to the data above we can determine that the worst delays are late arrival delays by aircraft arriving late at previous airports causing a ripple effect for future airport destinations.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Story Telling",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Projects/project5.html",
+    "href": "Cleansing_Projects/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Data Cleansing",
+      "Project 5"
+    ]
+  },
+  {
     "objectID": "Cleansing_Projects/project4.html",
     "href": "Cleansing_Projects/project4.html",
     "title": "Client Report - [Insert Project Title]",
@@ -304,67 +323,47 @@
     ]
   },
   {
-    "objectID": "Cleansing_Projects/project2.html",
-    "href": "Cleansing_Projects/project2.html",
+    "objectID": "Cleansing_Projects/project1.html",
+    "href": "Cleansing_Projects/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
       "Data Cleansing",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project3.html",
-    "href": "Story_Telling/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project1.html",
-    "href": "Story_Telling/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
       "Project 1"
     ]
   },
   {
-    "objectID": "Story_Telling/project5.html",
-    "href": "Story_Telling/project5.html",
+    "objectID": "Machine_Learning/project3.html",
+    "href": "Machine_Learning/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Story Telling",
+      "Machine Learning",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Machine_Learning/project2.html",
+    "href": "Machine_Learning/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Machine Learning",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "Full_Stack/project5.html",
+    "href": "Full_Stack/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
       "Project 5"
-    ]
-  },
-  {
-    "objectID": "competition.html",
-    "href": "competition.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Competition"
-    ]
-  },
-  {
-    "objectID": "competition.html#title-2-header",
-    "href": "competition.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Competition"
     ]
   },
   {
@@ -379,15 +378,43 @@
     ]
   },
   {
-    "objectID": "Full_Stack/project2.html",
-    "href": "Full_Stack/project2.html",
+    "objectID": "Full_Stack/project1.html",
+    "href": "Full_Stack/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
       "Full Stack",
-      "Project 2"
+      "Project 1"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David York",
+    "section": "",
+    "text": "This portfolio is to showcase what I have done with class and personal projects. In making this portfolio it is my hope employers will see what I can do and gauge if I am a right fit for their team.\n\n\nI truly believe that hard work and persistence will get you to whereever you want to go. I began my tech journey in 2022 when I decided to change my major from Biology to Computer Science. It was a great leap of faith at the time because I was halfway through my biology degree and taking a couple coding classes really spark a feeling of joy, a craving for problem solving, and creativity. I look forward to the opportunities and real world solutions I plan to achieve."
+  },
+  {
+    "objectID": "index.html#a-little-about-me",
+    "href": "index.html#a-little-about-me",
+    "title": "David York",
+    "section": "",
+    "text": "I truly believe that hard work and persistence will get you to whereever you want to go. I began my tech journey in 2022 when I decided to change my major from Biology to Computer Science. It was a great leap of faith at the time because I was halfway through my biology degree and taking a couple coding classes really spark a feeling of joy, a craving for problem solving, and creativity. I look forward to the opportunities and real world solutions I plan to achieve."
+  },
+  {
+    "objectID": "Cleansing_Exploration/project3.html",
+    "href": "Cleansing_Exploration/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project2.html",
+    "href": "Cleansing_Exploration/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "ml.html",
@@ -410,61 +437,14 @@
     ]
   },
   {
-    "objectID": "Machine_Learning/project3.html",
-    "href": "Machine_Learning/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "Machine_Learning/project1.html",
-    "href": "Machine_Learning/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "Machine_Learning/project5.html",
-    "href": "Machine_Learning/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "David York",
-    "section": "",
-    "text": "This portfolio is to showcase what I have done with class and personal projects. In making this portfolio it is my hope employers will see what I can do and gauge if I am a right fit for their team.\n\n\nI truly believe that hard work and persistence will get you to whereever you want to go. I began my tech journey in 2022 when I decided to change my major from Biology to Computer Science. It was a great leap of faith at the time because I was halfway through my biology degree and taking a couple coding classes really spark a feeling of joy, a craving for problem solving, and creativity. I look forward to the opportunities and real world solutions I plan to achieve."
-  },
-  {
-    "objectID": "index.html#a-little-about-me",
-    "href": "index.html#a-little-about-me",
-    "title": "David York",
-    "section": "",
-    "text": "I truly believe that hard work and persistence will get you to whereever you want to go. I began my tech journey in 2022 when I decided to change my major from Biology to Computer Science. It was a great leap of faith at the time because I was halfway through my biology degree and taking a couple coding classes really spark a feeling of joy, a craving for problem solving, and creativity. I look forward to the opportunities and real world solutions I plan to achieve."
-  },
-  {
-    "objectID": "Competition/project4.html",
-    "href": "Competition/project4.html",
+    "objectID": "Competition/project3.html",
+    "href": "Competition/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
       "Competition",
-      "Project 4"
+      "Project 3"
     ]
   },
   {
@@ -476,6 +456,26 @@
     "crumbs": [
       "Competition",
       "Project 2"
+    ]
+  },
+  {
+    "objectID": "cleansing.html",
+    "href": "cleansing.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Cleansing"
+    ]
+  },
+  {
+    "objectID": "cleansing.html#title-2-header",
+    "href": "cleansing.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Cleansing"
     ]
   }
 ]
